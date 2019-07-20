@@ -1,0 +1,25 @@
+.menu {
+  background: red;
+}
+.menu ul {
+  list-style: none;
+  margin: 25px;
+  padding: 50px;
+}
+.menu ul li {
+  display: inline-block;
+}
+.menu ul li a {
+  text-decoration: none;
+  padding: 15px 20px;
+  margin: 10px 15px;
+  color: aquamarine;
+}
+.menu ul li a:hover {
+  color: black;
+  background: blue;
+  -webkit-transition: 5s;
+  transition: 5s;
+}
+
+@imported 'color';

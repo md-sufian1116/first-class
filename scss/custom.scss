@@ -1,0 +1,28 @@
+$primary-color:red;
+
+
+.menu{
+    background: $primary-color;
+    ul{
+        list-style: none;
+        margin: 25px;
+        padding: 50px;
+        li{
+             display: inline-block;
+            a{
+                text-decoration: none;
+                padding: 15px 20px;
+                margin: 10px 15px;
+                color: aquamarine;
+                &:hover{
+                    color: black;
+                    background: blue;
+                    transition: 5s;
+                }
+               
+            }
+        }
+    }
+    
+}
+@imported'color'
